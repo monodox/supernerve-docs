@@ -1,0 +1,29 @@
+/**
+ * Custom CSS for supernerve docs.
+ * Docusaurus color vars: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
+ */
+
+:root {
+  --ifm-font-family-base: 'Google Sans', sans-serif;
+  --ifm-heading-font-family: 'Google Sans', sans-serif;
+  --ifm-color-primary: #ff3a3a;
+  --ifm-color-primary-dark: #e63434;
+  --ifm-color-primary-darker: #d93131;
+  --ifm-color-primary-darkest: #b32828;
+  --ifm-color-primary-light: #ff5353;
+  --ifm-color-primary-lighter: #ff6060;
+  --ifm-color-primary-lightest: #ff8080;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff5353;
+  --ifm-color-primary-dark: #ff3a3a;
+  --ifm-color-primary-darker: #ff2e2e;
+  --ifm-color-primary-darkest: #e61a1a;
+  --ifm-color-primary-light: #ff6c6c;
+  --ifm-color-primary-lighter: #ff7878;
+  --ifm-color-primary-lightest: #ffa3a3;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
